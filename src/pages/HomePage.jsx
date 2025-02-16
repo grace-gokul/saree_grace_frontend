@@ -11,7 +11,9 @@ import Paginate from '../components/Paginate';
 import ProductCarousel from '../components/ProductCarousel';
 import ServerError from '../components/ServerError';
 import Meta from '../components/Meta';
-
+import BannerCarousel from '../components/BannerCarousel'
+import ShippingInfo from '../components/ShippingInfo';
+import CategoryList from '../components/CategoryList';
 const HomePage = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPage, setTotalPage] = useState(0);
@@ -51,8 +53,10 @@ const HomePage = () => {
         </Message>
       ) : (
         <>
-          {!search && <ProductCarousel />}
+          {!search && <BannerCarousel />}
           <Meta />
+          <CategoryList/>
+          <ShippingInfo/>
           <h1>Latest Products</h1>
           <Row>
             {data.products.map(product => (

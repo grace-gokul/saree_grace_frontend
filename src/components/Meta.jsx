@@ -12,11 +12,11 @@ const Meta = ({ title, description, keywords }) => {
 };
 
 Meta.defaultProps = {
-  title: 'MERN Shop | Buy Electronics Online',
+  title: "India's No.1 Online Saree Shop - SareeGrace",
   description:
-    'Browse and buy the latest electronic gadgets and devices on our online store. Find great deals on smartphones, laptops, and more. Fast shipping and secure payments.',
+    "Discover a wide range of exquisite sarees at SareeGrace. Shop the latest silk, cotton, designer, and traditional sarees online with fast delivery and secure payments.",
   keywords:
-    'electronics, gadgets, smartphones, laptops, online shopping, tech accessories'
+    "online saree shopping, silk sarees, cotton sarees, designer sarees, wedding sarees, traditional sarees, buy sarees online, saree store, Indian sarees, handloom sarees"
 };
 
 export default Meta;
